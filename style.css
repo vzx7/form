@@ -1,13 +1,3 @@
-h1 {
-  color: rgb(5, 126, 85);
-  text-align: center;
-}
-#_ads {
-  text-align: center;
-}
-#_ads img {
-  width: 60vw;
-}
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:300);
 * {
   font-family: "Open Sans", sans-serif;
@@ -20,7 +10,10 @@ body {
   background: #111;
   background-repeat: no-repeat;
 }
-
+h1 {
+  color: rgb(5, 126, 85);
+  text-align: center;
+}
 .signupSection {
   background: url(https://source.unsplash.com/TV2gg2kZD1o/1600x800);
   background-repeat: no-repeat;
