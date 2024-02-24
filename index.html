@@ -19,8 +19,8 @@
       };
 
       function userNameValidation(usernameInput) {
-        var username = document.getElementById("username");
-        var issueArr = [];
+        const username = document.getElementById("username");
+        const issueArr = [];
         if (/[-!@#$%^&*()_+|~=`{}\[\]:";'<>?,.\/]/.test(usernameInput)) {
           issueArr.push("Имя не должно содержать спец символы!");
         }
@@ -28,8 +28,8 @@
       }
 
       function passwordValidation(passwordInput) {
-        var password = document.getElementById("password");
-        var issueArr = [];
+        const password = document.getElementById("password");
+        const issueArr = [];
         if (!/^.{7,15}$/.test(passwordInput)) {
           issueArr.push("Пароль должен содержать 7-15 символов.");
         }
